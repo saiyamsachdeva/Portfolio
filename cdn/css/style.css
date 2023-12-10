@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,7 +10,7 @@ body {
     color: #c5c5c5;
 }
 
-a {
+a{
     text-decoration: none;
 }
 
@@ -68,32 +68,32 @@ nav {
 }
 
 .about-text h1>span {
-    background: var(
-        --Primary-Gradient, 
-        linear-gradient(116deg, #FF8660 71.79%, #9A33FF 95.51%)
-    );
+    background: var(--Primary-Gradient,
+            linear-gradient(116deg, #FF8660 71.79%, #9A33FF 95.51%));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.about-text p{
+
+.about-text p {
     font-size: 18px;
     margin-top: 30px;
 }
- .about-btn{
+
+.about-btn {
     margin-top: 30px;
- }
-.btn-primary{
+}
+
+.btn-primary {
     width: 195px;
     height: 64px;
     border-radius: 50px;
-    border: 1px solid var(--Primary-Gradient,#fff);
-    background: linear-gradient(
-        0deg,
-        var(--Primary-Gradient,#fff) 0%,
-        var(--Primary-Gradient,#fff) 100%,
-    ),
-    var(--Primary-Gradient,#fff);
+    border: 1px solid var(--Primary-Gradient, #fff);
+    background: linear-gradient(0deg,
+            var(--Primary-Gradient, #fff) 0%,
+            var(--Primary-Gradient, #fff) 100%,
+        ),
+        var(--Primary-Gradient, #fff);
     font-size: 22px;
     margin-right: 20px;
 }
@@ -106,13 +106,14 @@ nav {
     border-radius: 50px;
     font-size: 22px;
     color: #fff;
-     
+
 }
 
 .experience-with {
     text-align: center;
-    
+
 }
+
 .experience-with h2 {
     font-size: 20px;
 }
@@ -136,5 +137,68 @@ nav {
 }
 
 .heading-project {
-    
+    background: var(--Orange-Gradient,
+            linear-gradient(180deg, #FF8660 0%, #D5491D 100%)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.project-item {
+    background:  #2a2a2a;
+    margin: 20px; 
+    border-radius: 18px 18px 0 0;
+
+}
+.project-item img{
+    width: 100%;
+    border-radius: 18px 18px 0 0;
+}
+
+.project-title {
+    padding: 15px;
+}
+
+.project-title h3 {
+    color: #fff;
+}
+
+.footer {
+    background-color: #191919;
+}
+
+footer h2 {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+footer p {
+    font-size: 15px;
+}
+
+
+.email-container {
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+}
+.email-container img {
+    margin-right: 10px;
+}
+
+.social-links {
+    display: flex; 
+    margin-top: 20px;
+}
+.social-links img {
+    display: flex;
+    margin-right: 20px;
 }
