@@ -78,10 +78,16 @@ nav {
 .about-text p {
     font-size: 18px;
     margin-top: 30px;
+    
 }
 
 .about-btn {
     margin-top: 30px;
+    
+}
+
+.about-btn button {
+    cursor: pointer;
 }
 
 .btn-primary {
@@ -201,4 +207,23 @@ footer p {
 .social-links img {
     display: flex;
     margin-right: 20px;
+}
+
+.github-butt {
+    margin-top: 10px;
+    width: 120px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid var(--Primary-Gradient, #fff);
+    background: linear-gradient(0deg,
+            var(--Primary-Gradient, #fff) 0%,
+            var(--Primary-Gradient, #fff) 100%,
+        ),
+        var(--Primary-Gradient, #fff);
+    font-size: 22px;
+    margin-right: 20px;
+}
+
+.github-butt button{
+    cursor: pointer;
 }

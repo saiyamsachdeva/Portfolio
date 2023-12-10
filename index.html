@@ -22,9 +22,9 @@
             </div>
             <div class="navbar">
                 <div><a href="#">Home</a></div>
-                <div><a href="#">Project</a></div>
-                <div><a href="#">Experience</a></div>
-                <div><a href="#">Contact</a></div>
+                <div><a href="#projects">Project</a></div>
+                <!-- <div><a href="#">Experience</a></div> -->
+                <div><a href="#contact">Contact</a></div>
             </div>
         </nav>
     </header>
@@ -40,8 +40,8 @@
                 I am always open for discussions @Linkedin.
             </p>
             <div class="about-btn">
-                <button class="btn-primary">Get In Touch</button>
-                <button class="btn-secondary">Download CV</button>
+                <button class="btn-primary" onclick="openLinkedIN()">Get In Touch</button>
+                <button class="btn-primary" onclick="downloadCV()">Download CV</button>
             </div>
         </div>
     </section>
@@ -50,31 +50,39 @@
         <div class="experience-with-lang">
             <div><img src="cdn/images/html5.png" alt="html logo" /></div>
             <div><img src="cdn/images/css3.png" alt="css logo" /></div>
-            <div><img src="cdn/images/nodejs.png" alt="nodejs logo" /></div>
-            <div><img src="cdn/images/reactjs.png" alt="reactjs logo" /></div>
+            <div><img src="cdn/images/java.png" alt="java logo" /></div>
+            <div><img src="cdn/images/flutter.png" alt="flutter logo" /></div>
             <div><img src="cdn/images/javascript.png" alt="javascript logo" /></div>
         </div>
     </section>
-    <section class="container projects">
+    <section id="projects" class="container projects">
         <h2 class="primary-heading heading-project">Projects</h2>
         <div class="projects">
             <div class="project-item">
-                <img src="cdn/images/project-2.jpeg" alt="project1">
+                <img src="cdn/images/project-3.jpeg" alt="project1">
                 <div class="project-title">
                     <h3>Chat-Ly</h3>
-                    <p>GitHub</p>
+                    <button class="github-butt" onclick="openchatAppGitHubRepo()">
+                        GitHub
+                    </button>
                 </div>
             </div>
             <div class="project-item">
-                <img src="cdn/images/project-2.jpeg" alt="project2">
+                
+                <img src="cdn/images/project-6.png" alt="project2">
                 <div class="project-title">
                     <h3>Care-Link</h3>
-                    <p>GitHub</p>
+                    <button class="github-butt" onclick="openchatBotAppGitHubRepo()">
+                        GitHub
+                    </button>
                 </div>
             </div>
+            
+            
+            
         </div>
     </section>
-    <footer>
+    <footer id = "contact">
         <div class="container">
             <h2>Contact</h2>
             <p>My inbox is always open. Whether you have a question or just want to say hello, I'll try my best to get
@@ -82,15 +90,20 @@
             </p>
             <div class="email-container">
                 <div><img src="cdn/images/email-icon.svg" alt="email" /></div>
-                <div>saiyamsachdeva14@gmail.com</div>
+                <div><a href='mailto:saiyamsachdeva14@gmail.com'></a>saiyamsachdeva14@gmail.com</div>
             </div>
             <div class="social-links"> 
                 <div><img src="cdn/images/instagram.svg" alt="twitter" /></div>
-                <div><img src="cdn/images/instagram.svg" alt="twitter"></div>
-                <div><img src="cdn/images/instagram.svg" alt="twitter"></div>
-                <div><img src="cdn/images/instagram.svg" alt="twitter"></div>
+                <div><img src="cdn/images/meta-logo.svg" alt="twitter"></div>
+                <!-- <div><img src="cdn/images/instagram.svg" alt="twitter"></div>
+                <div><img src="cdn/images/meta-logo.svg" alt="twitter"></div> -->
         </div>
     </footer>
+    <script src="script.js">
+        
+
+
+    </script>
 </body>
 
 </html>
