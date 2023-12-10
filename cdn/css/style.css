@@ -80,3 +80,61 @@ nav {
     font-size: 18px;
     margin-top: 30px;
 }
+ .about-btn{
+    margin-top: 30px;
+ }
+.btn-primary{
+    width: 195px;
+    height: 64px;
+    border-radius: 50px;
+    border: 1px solid var(--Primary-Gradient,#fff);
+    background: linear-gradient(
+        0deg,
+        var(--Primary-Gradient,#fff) 0%,
+        var(--Primary-Gradient,#fff) 100%,
+    ),
+    var(--Primary-Gradient,#fff);
+    font-size: 22px;
+    margin-right: 20px;
+}
+
+.btn-secondary {
+    width: 195px;
+    height: 64px;
+    background: none;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    font-size: 22px;
+    color: #fff;
+     
+}
+
+.experience-with {
+    text-align: center;
+    
+}
+.experience-with h2 {
+    font-size: 20px;
+}
+
+.experience-with-lang {
+    display: flex;
+    width: 500;
+    margin: 50px auto;
+    justify-content: space-between;
+}
+
+.experience-with-lang img {
+    width: 42px;
+    cursor: pointer;
+
+}
+
+.primary-heading {
+    text-align: center;
+    font-size: 35px;
+}
+
+.heading-project {
+    
+}
