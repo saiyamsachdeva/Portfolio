@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+.avatar img {
+    border-radius: 0ch;
+}
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #161513;
@@ -93,6 +96,7 @@ nav {
 .btn-primary {
     width: 195px;
     height: 64px;
+    color: #fff;
     border-radius: 50px;
     border: 1px solid var(--Primary-Gradient, #fff);
     background: linear-gradient(0deg,
@@ -154,17 +158,21 @@ nav {
 .projects {
     display: flex;
     justify-content: space-between;
-    margin: 40px 0;
+    margin: 40px ;
+    flex: 33.33%;
+    overflow: auto;
 }
 
 .project-item {
     background:  #2a2a2a;
+    width: 20rem;
     margin: 20px; 
     border-radius: 18px 18px 0 0;
-
 }
 .project-item img{
     width: 100%;
+    /* max-width: ; */
+    height: 150px;
     border-radius: 18px 18px 0 0;
 }
 
@@ -211,19 +219,23 @@ footer p {
 
 .github-butt {
     margin-top: 10px;
-    width: 120px;
+    align-items: end;
+    width: 50px;
     height: 50px;
+    color: #fff;
     border-radius: 50px;
-    border: 1px solid var(--Primary-Gradient, #fff);
+    border: 1px  var(--Primary-Gradient, #fff);
     background: linear-gradient(0deg,
             var(--Primary-Gradient, #fff) 0%,
             var(--Primary-Gradient, #fff) 100%,
         ),
         var(--Primary-Gradient, #fff);
     font-size: 22px;
+    cursor: pointer;
     margin-right: 20px;
 }
-
-.github-butt button{
-    cursor: pointer;
+.github-butt img{
+    height: 40px;
+    width: 40px;
 }
+
