@@ -70,6 +70,10 @@ nav {
     color: #fff;
 }
 
+
+
+
+
 .about-text h1>span {
     background: var(--Primary-Gradient,
             linear-gradient(116deg, #FF8660 71.79%, #9A33FF 95.51%));
@@ -168,13 +172,17 @@ nav {
     width: calc(33.33% - 40px); /* Calculate width with margin */
     margin: 20px;
     border-radius: 18px;
+    transition: transform 0.3s;
 }
 
-.project-item img{
+.project-item img {
     width: 100%;
-    /* max-width: ; */
     height: 150px;
-    border-radius: 18px 18px 0 0;
+    border-radius: 18px;
+}
+
+.project-item:hover {
+    transform: translateY(-10px); /* Move the project item 10 pixels up on hover */
 }
 
 .project-title {
