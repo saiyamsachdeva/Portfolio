@@ -157,18 +157,19 @@ nav {
 
 .projects {
     display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
     justify-content: space-between;
-    margin: 40px ;
-    flex: 33.33%;
-    overflow: auto;
+    margin: 40px;
+    overflow: auto; /* Enable scrolling for the container */
 }
 
 .project-item {
-    background:  #2a2a2a;
-    width: 20rem;
-    margin: 20px; 
-    border-radius: 18px 18px 0 0;
+    background: #2a2a2a;
+    width: calc(33.33% - 40px); /* Calculate width with margin */
+    margin: 20px;
+    border-radius: 18px;
 }
+
 .project-item img{
     width: 100%;
     /* max-width: ; */
