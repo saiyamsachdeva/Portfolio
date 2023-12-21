@@ -30,5 +30,13 @@ function openbiteLiveLink() {
     window.open('https://github.com/saiyamsachdeva/food_ecommerce_app','_blank')
 }
 
+function openweatherGitHubRepo() {
+    window.open('https://github.com/saiyamsachdeva/weathx','_blank')
+}
+
+function openweatherLiveLink() {
+    window.open('https://github.com/saiyamsachdeva/weathx','_blank')
+}
+
 
 
