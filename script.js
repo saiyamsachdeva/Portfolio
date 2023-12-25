@@ -1,5 +1,5 @@
 function downloadCV() {
-    window.open('https://drive.google.com/file/d/1Dny081Mcb2v5CpZ8ktSDByOcG-15eye5/view?usp=sharing', '_blank');
+    window.open('https://drive.google.com/file/d/1hfxxZOoUBBbA8q-I4hQcuNa1HudSXAoe/view?usp=sharing', '_blank');
     
 }
 
