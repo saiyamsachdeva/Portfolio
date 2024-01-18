@@ -74,6 +74,7 @@ nav {
 
 .navbar div {
     padding: 30px 20px;
+    cursor: pointer;
 }
 
 .navbar a {
@@ -91,7 +92,8 @@ nav {
 }
 
 .avatar img {
-    width: 251px;
+    width: 400px;
+    height: 400px;
 }
 
 .about {
@@ -108,6 +110,12 @@ nav {
     font-size: 55px;
     line-height: 1;
     color: #fff;
+}
+
+.social-buttons {
+    display: flex;
+    flex-direction: column; 
+    margin-right: 20px; 
 }
 
 
@@ -142,7 +150,7 @@ nav {
     height: 64px;
     color: #fff;
     border-radius: 50px;
-    border: 1px solid var(--Primary-Gradient, #fff);
+    border: 1px  var(--Primary-Gradient, #fff);
     background: linear-gradient(0deg,
             var(--Primary-Gradient, #fff) 0%,
             var(--Primary-Gradient, #fff) 100%,
@@ -152,6 +160,8 @@ nav {
     margin-right: 20px;
 }
 
+
+
 .btn-secondary {
     width: 195px;
     height: 64px;
@@ -160,6 +170,7 @@ nav {
     border-radius: 50px;
     font-size: 22px;
     color: #fff;
+    margin-right: 10px;
 
 }
 
@@ -222,7 +233,7 @@ nav {
 }
 
 .project-item:hover {
-    transform: translateY(-10px); /* Move the project item 10 pixels up on hover */
+    transform: translateY(-20px); /* Move the project item 10 pixels up on hover */
 }
 
 .project-title {
@@ -297,34 +308,41 @@ footer p {
     justify-content: space-between;
 }
 
+
+
 .contact-form {
-    margin-top: 20px;
+    max-width: 400px;
+    margin: 0; /* Set margin to 0 to align the form to the left */
+    font-family: Arial, sans-serif;
+    text-align: left; /* Align the form content to the left */
+    margin-top: 50px;
 }
 
-.contact-form label,
-.contact-form input,
-.contact-form textarea {
+label {
     display: block;
-    margin-bottom: 15px; /* Increase margin for better spacing */
+    margin-bottom: 8px;
 }
 
-.contact-form input,
-.contact-form textarea {
-    width: 30%; /* Make the input fields and textarea take full width */
-    padding: 10px; /* Add padding for better visual appearance */
-    box-sizing: border-box; /* Include padding in the width calculation */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
 }
 
-.contact-form button {
-    background-color: #3498db;
-    color: #fff;
-    padding: 15px 20px; /* Increase padding for a larger button */
+input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s;
 }
 
-.contact-form button:hover {
-    background-color: #2980b9;
+input[type="submit"]:hover {
+    background-color: #45a049;
 }
-
-
